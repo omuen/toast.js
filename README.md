@@ -1,5 +1,5 @@
 # toast.js
-a function to show a Toast like Android.
+A simple function to show a toast like Android; No dependencies.
 ``` javascript
 function toast(text, delay){
   var div = document.createElement("div");
@@ -33,3 +33,4 @@ function toast(text, delay){
   }, 0);
 };
 ```
+Hum aha?
