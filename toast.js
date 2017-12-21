@@ -13,10 +13,10 @@ function toast(text, delay){
   div.style.opacity = "0";
   div.innerText = text;
   document.body.appendChild(div);
-  div.style.marginLeft = (-(div.offsetWidth/2)) + "px";
+  div.style.marginLeft = (-div.offsetWidth/2) + "px";
   div.style.marginTop = (-div.offsetHeight/2) + "px";
   setTimeout(function(){
-    div.style.marginLeft = (-(div.offsetWidth/2)) + "px";
+    div.style.marginLeft = (-div.offsetWidth/2) + "px";
     div.style.marginTop = (-div.offsetHeight) + "px";
     div.style.transition = "all 0.3s";
     div.style.opacity = "1";
